@@ -100,7 +100,7 @@ class Ui_Form(object):
         self.horizontalLayout_7.addWidget(self.back_to_menu_button)
         self.gridLayout.addLayout(self.horizontalLayout_7, 3, 0, 1, 1)
 
-        self.retranslateUi(Form)
+        self.retranslateUi(Form) 
         QtCore.QMetaObject.connectSlotsByName(Form)
 
     def retranslateUi(self, Form):
