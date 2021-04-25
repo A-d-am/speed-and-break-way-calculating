@@ -130,11 +130,11 @@ class CalcSpeed(QtWidgets.QMainWindow, speed.Ui_Form):
 
 
 def main():
-    app = QtWidgets.QApplication(sys.argv)  # Новый экземпляр QApplication
+    app = QtWidgets.QApplication(sys.argv) 
     window = Main()
     window.show()  # Показываем окно
     app.exec_()  # и запускаем приложение
 
 
-if __name__ == '__main__':  # Если мы запускаем файл напрямую, а не импортируем
-    main()  # то запускаем функцию main()
+if __name__ == '__main__':  
+    main()  
